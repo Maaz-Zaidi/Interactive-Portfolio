@@ -19,7 +19,6 @@
 }
 .col {
 	display: inline-block;
-	float: left;
 	overflow: hidden;
 	position: relative;
 	width:14%;
