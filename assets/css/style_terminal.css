@@ -1,4 +1,4 @@
-
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
 .search {
 	color: #5BC0DE;
 	font-size: 40px;
@@ -25,7 +25,7 @@ span.green{
 .search__form::before,
 .terminal__line,
 .search__input {
-	font-family: 'VT323', monospace;
+	font-family: Lato;
 	font-size: 40px;
 }
 
@@ -56,9 +56,12 @@ span.green{
 	width: 10ch;
 }
 .search--open .terminal__line:nth-child(9) {
-	width: 0ch;
+	width: 7ch;
 }
 .search--open .terminal__line:nth-child(10) {
+	width: 0ch;
+}
+.search--open .terminal__line:nth-child(11) {
 	width: 38ch;
 }
 
@@ -110,19 +113,23 @@ span.green{
 
 .search--open .terminal__line:nth-child(8) {
 	animation-duration: 0.8s, 0.1s;
-	animation-timing-function: steps(10, end), ease;
+	animation-timing-function: steps(9, end), ease;
 	animation-delay: 9.8s;
 }
-
 .search--open .terminal__line:nth-child(9) {
-	animation-duration: 0.2s, 0.1s;
-	animation-timing-function: steps(0, end), ease;
+	animation-duration: 0.8s, 0.1s;
+	animation-timing-function: steps(7, end), ease;
 	animation-delay: 11.2s;
 }
 .search--open .terminal__line:nth-child(10) {
+	animation-duration: 0.2s, 0.1s;
+	animation-timing-function: steps(0, end), ease;
+	animation-delay: 12.3s;
+}
+.search--open .terminal__line:nth-child(11) {
 	animation-duration: 2s, 0.1s;
 	animation-timing-function: steps(38, end), ease;
-	animation-delay: 11.5s;
+	animation-delay: 12.5s;
 }
 
 /* Type animation by Lea Verou http://lea.verou.me/2012/02/simpler-css-typing-animation-with-the-ch-unit/ */

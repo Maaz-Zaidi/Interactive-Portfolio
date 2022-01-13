@@ -1,5 +1,8 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
 body {
     overflow: hidden;
+    font-family: Lato;
 }
 
 li, ul {
@@ -138,7 +141,7 @@ li, ul {
         text-transform: capitalize;
         padding: 16px 39px;
         border: 2px solid #5BC0DE;
-        font-family: 'Poppins', sans-serif;
+        font-family: Lato;
         background: #5BC0DE;
         display: inline-block;
         position: relative;

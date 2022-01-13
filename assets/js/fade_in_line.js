@@ -8,7 +8,7 @@ $(window).scroll(function () {
             setTimeout(function () {
                 $('.line').eq(i).addClass('fadeIn');
                 $('.search').eq(i).addClass('search--open');
-            }, 300 * (i + 5));
+            }, 300 * (i + 2));
         });
     } else {
         $('.line').removeClass('fadeIn');
