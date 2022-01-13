@@ -1,0 +1,19 @@
+.transition-fade {
+    animation: transitionIn 0.75s;
+}
+
+
+
+@keyframes transitionIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-bg {
+    animation: transitionOut 0.75s;
+}
+
+@keyframes transitionOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}

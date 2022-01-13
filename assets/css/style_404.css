@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap");
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.not-found {
+  height: 100%;
+  background-image: radial-gradient(#ffffff 50%, #e0e8ef);
+  overflow: hidden;
+}
+.not-found .not-found-container {
+  height: 50%;
+  perspective: 400px;
+  backface-visibility: visible;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+.not-found .not-found-container h1 {
+  font-family: "Roboto";
+  text-shadow: 2px 2px 8px #10181f44;
+  padding-top: 12%;
+  font-size: 3em;
+  transform: rotateY(20deg) translateZ(50px);
+}
+.not-found .not-found-container p {
+  font-family: "Lato";
+  text-shadow: 2px 2px 8px #10181f22;
+  color: #00000088;
+}
+.not-found .not-found-container p a#spelling-error {
+  display: inline-block;
+  text-decoration: none;
+  color: #212121;
+}
+.not-found .not-found-container p a#spelling-error #spelling-error-window {
+  position: absolute;
+  padding: 8px 8px;
+  margin: 32px -128px;
+  border-radius: 6px;
+  color: #f0f8ff;
+  background-color: #10181f;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: 200ms ease;
+}
+.not-found .not-found-container p a#spelling-error:hover #spelling-error-window {
+  opacity: 1;
+  visibility: visible;
+  transition: 200ms ease;
+}

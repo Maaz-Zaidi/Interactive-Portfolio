@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <script src="./assets/js/transitions.js"></script>
+    <link rel="stylesheet" href="/assets/css/style_transitions.css">
+    <link rel="stylesheet" href="/assets/css/style_main.css">
+    <link rel="stylesheet" href="/assets/css/style_terminal.css">
+    <link rel="stylesheet" href="/assets/css/style_menu.css">
+    <title>Home</title>
+
+</head>
+<body>
+    <div class="transition-fade">
+        <header class="cd-header">
+            <div class="header-wrapper">
+                <div class="nav-but-wrap">
+                    <div class="menu-icon hover-target">
+                        <span class="menu-icon__line menu-icon__line-left"></span>
+                        <span class="menu-icon__line"></span>
+                        <span class="menu-icon__line menu-icon__line-right"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="/Home.html" class="hover-target">#Home</a></li>
+                    <li class="nav__list-item"><a href="/Projects.html" class="hover-target">#Projects</a></li>
+                    <li class="nav__list-item"><a href="/Resume.html" class="hover-target">#Resume</a></li>
+                    <li class="nav__list-item"><a href="/contact.html" class="hover-target">#Contact</a></li>
+                    <li class="nav__list-item"><a href="/404_page.html" class="hover-target">#Settings</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <div id="parallax-move">
+            <div class="header">
+
+                <div class="inner-header flex parallax-fade-top">
+                    <div class="layer" data-depth="0.5">
+                        <div class="some-space">
+                            <h1>MAAZ ZAIDI</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Waves Container-->
+                <div>
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                        </g>
+                    </svg>
+                </div>
+                <!--Waves end-->
+
+            </div>
+        </div>
+
+
+        <div class="some-more-space">
+            <div class="spacer1">
+
+                <div class="line"></div>
+
+                <div class="attention-grabber-container">
+                    <div class="circle-one"></div>
+                    <div class="circle-two"></div>
+                </div>
+
+                <div class="terminal-wrapper">
+                    <div class="search search--open">
+                        <div class="terminal">
+                            <p class="terminal__line">Welcome to my website:<span class="green"><</span><span class="green" id="ip"></span><span class="green">></span></p>
+                            <p class="terminal__line">My name is Maaz Zaidi</p>
+                            <p class="terminal__line">A first year computer science student</p>
+                            <p class="terminal__line">At the University of Ottawa</p>
+                            <p class="terminal__line"></p>
+                            <p class="terminal__line">Here are some helpful links:</p>
+                            <p class="terminal__line"><span class="green"><a href="" class="click-able"> #Cirriculum Vitae</a></span></p>
+                            <p class="terminal__line"><span class="green"><a href="" class="click-able">#Main Menu</a></span></p>
+                            <p class="terminal__line"></p>
+                            <p class="terminal__line">You can also access these at the Top!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section full-height over-hide">
+
+        </div>
+
+        <div class='cursor' id="cursor"></div>
+        <div class='cursor2' id="cursor2"></div>
+        <div class='cursor3' id="cursor3"></div>
+    </div>
+    <!-- partial -->
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+    <script defer src='https://matthew.wagerfield.com/parallax/deploy/jquery.parallax.js'></script>
+    <script defer src="./assets/js/mouse_parallax_main.js"></script>
+    <script defer src="./assets/js/fade_out.js"></script>
+    <script defer src="./assets/js/fade_in_line.js"></script>
+    <script defer src="./assets/js/fade_in_circle.js"></script>
+    <script defer src="./assets/js/terminal_animation"></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script defer src="./assets/js/pointer.js"></script>
+</body>
+</html>
